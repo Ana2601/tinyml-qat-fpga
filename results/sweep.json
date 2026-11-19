@@ -1,0 +1,25 @@
+{
+  "epochs": 60,
+  "rows": [
+    {
+      "bits": 32,
+      "test_acc": 0.6836,
+      "size_bits": 149760
+    },
+    {
+      "bits": 8,
+      "test_acc": 0.6914,
+      "size_bits": 37440
+    },
+    {
+      "bits": 4,
+      "test_acc": 0.6562,
+      "size_bits": 18720
+    },
+    {
+      "bits": 2,
+      "test_acc": 0.2969,
+      "size_bits": 9360
+    }
+  ]
+}
