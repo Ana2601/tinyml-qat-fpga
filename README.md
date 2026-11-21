@@ -7,6 +7,8 @@ resource-constrained edge inference at sub-8-bit precision.** This is a quantiza
 study that runs end-to-end on M1; the FINN / hls4ml dataflow deployment
 completes on the FPGA host.
 
+![Architecture](docs/diagrams/architecture.svg)
+
 ## What runs on M1 (this repo)
 
 A small classifier on a synthetic "tiny image" task (8 classes = quadrant
@@ -58,6 +60,12 @@ make test             # smoke self-test
 
 Requires `torch` (numpy included). The dataset is generated offline in
 `data/`.
+
+## Test run
+
+Output of the CI command (`python3 test_qat.py`), captured from a local run:
+
+![Test run](docs/screenshots/test_run.svg)
 
 ## Setup
 
